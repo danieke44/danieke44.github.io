@@ -1,0 +1,36 @@
+    /* #plaatjegoud { width: 100%; } */
+    body {
+        margin: 0;
+        background-image: url('goud.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+#titel {
+    text-align: center; 
+    color: white;
+}
+
+
+#contact {
+    color: black;
+    position: absolute;
+    right: 15px;
+    top:15px;
+}
+#account {
+    color: black;
+    position: absolute;
+    right: 190px;
+    top:15px;
+}
+    #producten {
+    color: black;
+    position: absolute;
+    right: 90px;
+    top:15px;
+}
+.linkjes {
+    color: black;
+    text-decoration: none;
+}
