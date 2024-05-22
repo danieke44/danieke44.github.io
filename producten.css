@@ -1,10 +1,10 @@
     /* #plaatjegoud { width: 100%; } */
     body {
-        margin: 0;
         background-image: url('goud.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        margin: 0px;
     }
 
     #titel {
@@ -12,36 +12,37 @@
         color: white;
     }
 
-
-    #contact {
-        color: black;
-        position: absolute;
-        right: 15px;
-        top: 15px;
+    .menu {
+        display: flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        gap: 30px;
+        background-color:brown;
+        margin-bottom: 50px;
+        padding:50px;
     }
 
-    #account {
-        color: black;
-        position: absolute;
-        right: 190px;
-        top: 15px;
-    }
-
-    #producten {
-        color: black;
-        position: absolute;
-        right: 90px;
-        top: 15px;
-    }
-
-    .linkjes {
+    .menu a {
         color: black;
         text-decoration: none;
+        
+        &:hover {
+            color: green;
+        }
     }
 
-    div.plaatjes img {
-        height: 200px;
+    .plaatjes {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 30px;
+        background-color: pink;
+        padding: 20px;
+        margin: 50px;
+
+        img {
+            height: 200px;
+        }
     }
 
-    div.menu 
 
