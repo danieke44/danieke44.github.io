@@ -46,4 +46,9 @@
         }
     }
 
-
+.contact {
+    gap: 30px;
+        background-color: pink;
+        padding: 20px;
+        margin: 50px;
+}
