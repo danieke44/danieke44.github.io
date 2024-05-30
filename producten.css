@@ -10,6 +10,7 @@
     #titel {
         text-align: center;
         color: white;
+        font-family: "Pacifico", cursive;
     }
 
     .menu {
@@ -51,4 +52,26 @@
         background-color: pink;
         padding: 20px;
         margin: 50px;
+}
+
+.account {
+    gap: 30px;
+        background-color: pink;
+        padding: 20px;
+        margin: 50px;
+}
+.poppetje {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer {
+    background-color: brown;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+footer p{
+    margin: 0;
 }
