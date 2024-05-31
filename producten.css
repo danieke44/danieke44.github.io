@@ -10,7 +10,8 @@
     #titel {
         text-align: center;
         color: white;
-        font-family: "Pacifico", cursive;
+        font-family: "Sevillana", cursive;
+        
     }
 
     .menu {
@@ -29,7 +30,7 @@
         text-decoration: none;
         
         &:hover {
-            color: green;
+            color: pink;
         }
     }
 
@@ -72,6 +73,17 @@ footer {
     text-align: center;
     color: white;
 }
+/**
+.footer1 {
+    background-color: brown;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+**/
 footer p{
     margin: 0;
 }
