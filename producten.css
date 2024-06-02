@@ -1,17 +1,25 @@
     /* #plaatjegoud { width: 100%; } */
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
     body {
         background-image: url('goud.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        margin: 0px;
+        display: flex;
+        flex-direction: column;
     }
 
     #titel {
         text-align: center;
         color: white;
         font-family: "Sevillana", cursive;
-
     }
 
     .menu {
@@ -65,7 +73,6 @@
     .poppetje {
         display: flex;
         justify-content: center;
-
     }
 
     .material-symbols-outlined.bigfont {
@@ -79,32 +86,21 @@
         color: white;
     }
 
-    /**
-.footer1 {
-    background-color: brown;
-    padding: 0px;
-    text-align: center;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-**/
-    footer p {
-        margin: 0;
-    }
-
     input {
         border-radius: 5px;
         display: flex;
-        text-align: ;
     }
+
     button {
         border-radius: 10px;
     }
+
     .invulveld {
         display: flex;
         align-items: center;
-        gap: 5px
-    ;
+        gap: 5px;
+    }
+
+    .filler {
+        flex: auto;
     }
