@@ -50,12 +50,12 @@
         background-color: pink;
         padding: 20px;
         margin: 50px;
-        
+
 
         img {
             height: 200px;
         }
-            
+
     }
 
     .contact {
@@ -90,7 +90,7 @@
 
     input {
         border-radius: 5px;
-        
+
     }
 
     button {
@@ -113,11 +113,14 @@
         span {
             font-size: 36px;
         }
+
         &:hover {
             color: pink;
         }
     }
-    .winkelwagen,.favorieten {
+
+    .winkelwagen,
+    .favorieten {
         display: flex;
         justify-content: center;
         background-color: pink;
