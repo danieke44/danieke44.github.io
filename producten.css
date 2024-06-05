@@ -113,6 +113,9 @@
         span {
             font-size: 36px;
         }
+        &:hover {
+            color: pink;
+        }
     }
     .winkelwagen,.favorieten {
         display: flex;
