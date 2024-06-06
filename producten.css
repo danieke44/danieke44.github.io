@@ -1,4 +1,4 @@
-   /*
+   /* zorgt ervoor dat de website over de hele pagina gaat*/
     html,
     body {
         height: 100%;
@@ -22,7 +22,7 @@
         color: white;
         font-family: "Sevillana", cursive;
     }
-
+/* dit is de menubalk , er wordt ervoor gezord dat hij een bruine achtergronkleur heeft, dat alle items (tekst/icoontjes) aan het ''einde'' van de balk staan en dat er overal 30px ruimte tussenzit*/
     .menu {
         display: flex;
         flex-direction: row;
