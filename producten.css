@@ -1,4 +1,4 @@
-    /* #plaatjegoud { width: 100%; } */
+   /*
     html,
     body {
         height: 100%;
@@ -6,7 +6,7 @@
         padding: 0;
         margin: 0;
     }
-
+/* dit is het achtergronplaatje, er is ervoor gezorgd dat hij zichzelf niet herhaalt, vastaat en de hele pagina bedekt*/
     body {
         background-image: url('goud.jpg');
         background-repeat: no-repeat;
