@@ -43,6 +43,7 @@
         }
     }
 
+    /*de achtergrondkleur van de div wordt roze*/
     .plaatjes {
         display: flex;
         flex-direction: row;
@@ -59,6 +60,7 @@
 
     }
 
+/*als je op het woord contact klikt, wordt het blok op de achtergrond van de pagina een roze kleur */
     .contact {
         gap: 30px;
         background-color: pink;
@@ -66,6 +68,7 @@
         margin: 50px;
     }
 
+/*als je op het woord account klikt, wordt het blok op de achtergrond van de pagina een roze kleur */
     .account {
         gap: 30px;
         background-color: pink;
@@ -89,11 +92,13 @@
         color: white;
     }
 
+/*dit zorgt ervoor dat de randjes niet zo hoekig worden*/
     input {
         border-radius: 5px;
 
     }
 
+/*dit zorgt ervoor dat de randjes niet zo hoekig worden*/
     button {
         border-radius: 10px;
     }
@@ -120,6 +125,7 @@
         }
     }
 
+    /*als de op winkelwagen klikt, wordt het blok op de achtergond van de pagina roze*/
     .winkelwagen,
     .favorieten {
         display: flex;
