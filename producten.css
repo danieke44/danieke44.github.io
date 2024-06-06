@@ -22,7 +22,7 @@
         color: white;
         font-family: "Sevillana", cursive;
     }
-/* dit is de menubalk , er wordt ervoor gezord dat hij een bruine achtergronkleur heeft, dat alle items (tekst/icoontjes) aan het ''einde'' van de balk staan en dat er overal 30px ruimte tussenzit*/
+/* dit is de menubalk , er wordt ervoor gezord dat hij een bruine achtergronkleur heeft, dat alle items (tekst/icoontjes) aan het ''einde'' van de balk staan en dat er overal 30px ruimte tussenzit, ook staat er dat de balk een margin en padding moet hebben*/
     .menu {
         display: flex;
         flex-direction: row;
@@ -33,7 +33,7 @@
         margin-bottom: 50px;
         padding: 50px;
     }
-
+/* de linkjes worden zwart en niet underlined, als je met je muis over de icoontjes in de menubalk gaat worden ze roze*/
     .menu a {
         color: black;
         text-decoration: none;
