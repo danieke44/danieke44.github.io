@@ -53,7 +53,7 @@
         padding: 20px;
         margin: 50px;
 
-
+/*dit zegt dat ieder plaatje 200px hoog moet zijn*/
         img {
             height: 200px;
         }
@@ -75,16 +75,16 @@
         padding: 20px;
         margin: 50px;
     }
-
+/*poppetje bij inloggen wordt in het midden gezet */
     .poppetje {
         display: flex;
         justify-content: center;
     }
-
+/*symbooltje poppetje wordt 60px*/
     .material-symbols-outlined.bigfont {
         font-size: 60px;
     }
-
+/* footer wordt bruin met een padding van 0px, alles wat erin wordt getypt is wit en staatinhet midden*/
     footer {
         background-color: brown;
         padding: 0px;
@@ -102,17 +102,17 @@
     button {
         border-radius: 10px;
     }
-
+/* het balkje waar je je gerbuikersnaamen wachtwoord in invult worden ze naar het midden gezet*/
     .invulveld {
         display: flex;
         align-items: center;
         gap: 5px;
     }
-
+/*is voor copyright balk om die vast te laten staan onderaan de pagina*/
     .filler {
         flex: auto;
     }
-
+/* plaats van het pijltje terug, de grootte van het pijltje en dat het pijltje roze wordt als je er met je muis overheen gaat*/
     .backlink {
         margin-left: 50px;
 
